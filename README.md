@@ -1,4 +1,3 @@
-sicp_exercises
-==============
+Yet another personal SICP solutions dump
 
-Selected SICP solutions
+Some exercises are currently skipped (ie. in a notebook and need to be copied over)

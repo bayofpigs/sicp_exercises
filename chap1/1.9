@@ -1,0 +1,28 @@
+First procedure
+===============
+(+ 4 5)
+(inc (+ (dec 4) 5))
+(inc (inc (+ (dec 3) 5)))
+(inc (inc (inc (+ (dec 2) 5))))
+(inc (inc (inc (inc (+ (dec 1) 5)))))
+(inc (inc (inc (inc 5))))
+(inc (inc (inc 6)))
+(inc (inc 7))
+(inc 8)
+9
+
+This is a recursive process. It demonstrates a growing then a shrinking process evolution 
+cooresponding with expansion on process evaluation.
+
+Second Procedure
+================
+(+ 4 5)
+(+ 3 6)
+(+ 2 7)
+(+ 1 8)
+(+ 0 9)
+9
+
+This is an iterative process. Each state can be summarized by a fixed number of state 
+variables.
+
